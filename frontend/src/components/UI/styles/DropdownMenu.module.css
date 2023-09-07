@@ -1,0 +1,15 @@
+.dropdown {
+  position: absolute;
+  top: 3rem;
+  width: 250px;
+  padding: 0.5rem;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #32383d;
+  transform: translateX(-85%);
+}
+
+.menu {
+  color: white;
+  width: 100%;
+}

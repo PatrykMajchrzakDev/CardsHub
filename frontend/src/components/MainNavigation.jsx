@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import classes from "./styles/MainNavigation.module.css";
-import { AiOutlineMenu } from "react-icons/ai";
+import Dropdown from "./UI/Dropdown";
+import DropdownMenu from "./UI/DropdownMenu";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
@@ -29,9 +30,9 @@ const MainNavigation = () => {
             </NavLink>
           </li>
           <li className={classes["dropdown-icon"]}>
-            <a>
-              <AiOutlineMenu color="rgb(0, 162, 255)" cursor="pointer" />
-            </a>
+            <Dropdown>
+              <DropdownMenu></DropdownMenu>
+            </Dropdown>
           </li>
         </ul>
       </nav>

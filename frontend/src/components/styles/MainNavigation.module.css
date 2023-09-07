@@ -38,7 +38,7 @@
 }
 
 .dropdown-icon:hover {
-  filter: brightness(1.2);
+  background-color: rgb(71, 80, 87);
 }
 
 .dropdown-icon a {
